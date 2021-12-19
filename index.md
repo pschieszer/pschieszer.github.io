@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## Pat Schieszer's GitHub
 
-You can use the [editor on GitHub](https://github.com/pschieszer/pschieszer.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Hi, I'm Pat, a software engineer with experience in internal development and support for corporate environments. Over the past 20 years I've supported core functions for travel, health insurance, and agribusiness by architecting, implementing, and supporting applications. My main focus has been high volume business to business, internal customer, and specialized applications. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Outside of work, I like to develop applications that allow me to have the functionality I want, or give me the space to explore interesting programming techniques. I've included links below -- if you are interested in the code, I invite others to contribute any enhancements you might think of.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Fun Code
 
-```markdown
-Syntax highlighted code block
+Sometimes there's a program that you like to use, for one core functionality, and then everything else about it is annoying. For me that has always been weather applications -- I want to know the weather forecast, but the sites that have the info load it down with advertising. These ads, along with being a nuisance, cause the page to load in ugly, unfortunate ways that make it virtually unusuable for a long time. It's such an unpleasant experience and I suspected it was unnecessary -- that it could be better and faster and that's how [Weather Check](https://pschieszer.github.io/weatherCheck/weatherCheck.html) came into existence. Weather Check does exactly that, checks the weather from your current location if you're in the United States. Using no frameworks, and some open API's from the National Weather Service, it loads the next six days of weather info and lays it out on a grid for you. You can chocose other nearby locations, or enter GPS coordinates for other places in the country. The interface needs improvements (I am not a UX expert by any means) but as a proof of concept I think it does function decently. I might be the only person who uses it (I chose to respect my users' privacy, didn't integrate any analytics) and one of these days I will refresh that interface to something a little nicer. If you feel like you can contribute something, please feel free to submit a pull request to [the repo](https://github.com/pschieszer/weatherCheck).
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pschieszer/pschieszer.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+My second GitHub project grew out of an attempt to expand on my SVG skills to replicate a screensaver in a web page. Using programmatically generated SVG elements, I could make "stuff" appear on the web page. I found an architecture that would allow me to generate "points" that would be displayed on the screen, and it was quite easy to write new "point sources" and also vary the way those points are displayed. First they were dots, then they were various unicode, and a stick figure -- the number of options kept growing. Rather that constrain these options, I kept adding more, and soon I had a framework for all sorts of patterns. The documentation for all of those options is [here](https://pschieszer.github.io/screens/) and I encourage people to mix and match different settings. In the future I'd like to make the settings interactive, but for now they are query string parameters. You can choose your settings, copy that link to send to someone else, but they will get their own randomized experience -- no two experiences are alike! If you want to capture the moment, click the screen and a screenshot will be saved. (My Github profile pic is from one of those screenshots.) If you think of something you'd like to see, [contributions](https://github.com/pschieszer/screens) are always welcomed. 
